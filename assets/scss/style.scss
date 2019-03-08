@@ -20,9 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-@media screen and (max-width: $break-sm) {
-    header {
+    @media screen and (max-width: $break-sm) {
         flex-direction: column;
     }
 }
@@ -33,13 +31,17 @@ header {
     border-radius: 50%;
 }
 
-
 nav {
     display: flex;
     justify-content: flex-end;
     ul {
         display: flex;
         list-style-type: none;
+        @media screen and (max-width: $break-xs) {
+            flex-direction: column;
+            line-height: 30px;
+            margin-top: 20%;
+        }
     }
     li a {
         color: black;
@@ -53,15 +55,8 @@ nav {
     .active {
         color: pink;
     }
-    
 }
-@media screen and (max-width: $break-xs) {
-    ul {
-        flex-direction: column;
-        line-height: 30px;
-        margin-top: 20%;
-    }
-}
+
 
 
 

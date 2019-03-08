@@ -46,10 +46,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between; }
+  @media screen and (max-width: 600px) {
+    header {
+      flex-direction: column; } }
 
-@media screen and (max-width: 600px) {
-  header {
-    flex-direction: column; } }
 .logo {
   width: 70px;
   height: 70px;
@@ -61,6 +61,11 @@ nav {
   nav ul {
     display: flex;
     list-style-type: none; }
+    @media screen and (max-width: 300px) {
+      nav ul {
+        flex-direction: column;
+        line-height: 30px;
+        margin-top: 20%; } }
   nav li a {
     color: black;
     text-align: center;
@@ -70,11 +75,5 @@ nav {
       color: pink; }
   nav .active {
     color: pink; }
-
-@media screen and (max-width: 300px) {
-  ul {
-    flex-direction: column;
-    line-height: 30px;
-    margin-top: 20%; } }
 
 /*# sourceMappingURL=style.css.map */
