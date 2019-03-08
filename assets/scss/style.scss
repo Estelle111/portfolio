@@ -1,0 +1,56 @@
+@import 'reset.scss';
+
+.container {
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 20px 150px 400px 400%;
+    /* grid-template-areas: ". header header ."
+                         ". main   main   ."
+                         ". footer footer ."; */
+    border: 2px solid pink;
+}
+
+header {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li a {
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        &:hover:not(.active) {
+            color: #4CAF50;
+        }
+    }
+    .active {
+        color: #4CAF50;
+    }
+}
+
+
+    
+
+
+
