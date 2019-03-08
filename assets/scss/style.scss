@@ -1,17 +1,22 @@
 @import 'reset.scss';
+@import 'underline-from-center';
 
+$font-black: #666666;
+$title: 'Barlow Semi Condensed', sans-serif;
 $break-xs: 390px;
 $break-sm: 600px;
 $break-lg: 1200px;
 
 .container {
     display: grid;
-    grid-template-columns: 10% 40% 40% 10%;
-    grid-template-rows: 5px 150px 400px 400%;
+    grid-template-columns: 5% 45% 45% 5%;
+    grid-template-rows: 20px 100px 700px 400%;
     /* grid-template-areas: ". header header ."
                          ". main   main   ."
                          ". footer footer ."; */
     border: 2px solid pink;
+    font-family: $title;
+    font-size: 20px;
 }
 
 // Header
@@ -46,11 +51,13 @@ nav {
         }
     }
     .space {
-        margin-right: 25px;
+        margin-right: 30px;
     }
     li a {
         padding-bottom: 8px;
-        color: black;
+        font-size: 20px;
+        color: $font-black;
+        font-family: $title;
         text-decoration: none;
         &:hover:not(.active) {
             color: pink;
@@ -61,33 +68,55 @@ nav {
     }
 }
 
-/* Underline from center */
-.underline {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    position: relative;
+
+
+// Main
+main {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* h1 animation */
+.title {
+    
+}
+.animTitle {
+    color: $font-black; 
+    font-family: $title;
+    font-size: 70px;
+    //text-align: left;
+    white-space: nowrap;
     overflow: hidden;
-    &:before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        left: 50%;
-        right: 50%;
-        bottom: 0;
-        background: black;
-        height: 2px;
-        -webkit-transition-property: left right;
-        transition-property: left right;
-        -webkit-transition-duration: 0.3s;
-        transition-duration: 0.3s;
-        -webkit-transition-timing-function: ease-out;
-        transition-timing-function: ease-out;
-    }
-    &:hover:before {
-        left: 0;
-        right: 0;
-    }
+    width: 710px; 
+    line-height: 100px;
+    
+}
+
+.p1 {
+    animation: scrollingText1 5s steps(60, end);
+}
+.p2 {
+    animation: scrollingText2 6s steps(60, end);
+}
+.p3 {
+    animation: scrollingText3 10s steps(60, end);
+}
+  
+@keyframes scrollingText1 { 
+    from { width: 0; } 
+} 
+
+@keyframes scrollingText2 {
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+} 
+
+@keyframes scrollingText3 {
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
 }
