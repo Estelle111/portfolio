@@ -13,5 +13,9 @@ In progress
 * [x] fourth li of navbar list disappear when @media xs #5
 * [ ] toggle navbar in a logo menu #6
 * [ ] animation on logo #7
-* [ ] make About page taking all space of the (any) screen #8
-* [ ] center title animation and make it responsive #9
+* [ ] make Home page taking all space of the (any) screen #8
+* [x] center title animation and make it responsive #9
+* [x] Down arrow animation and position #10
+* [x] link navbar items #11
+* [ ] inverse header and home when @media xs #12
+* [ ] make the current navbar item "active" #13
