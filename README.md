@@ -1,4 +1,5 @@
 # Portfolio
+In progress
 
 ## Challenges
 * [ ] use GitHub Issues and Projects tools
@@ -13,3 +14,4 @@
 * [ ] toggle navbar in a logo menu #6
 * [ ] animation on logo #7
 * [ ] make About page taking all space of the (any) screen #8
+* [ ] center title animation and make it responsive #9
