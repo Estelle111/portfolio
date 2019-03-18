@@ -19,3 +19,6 @@ In progress
 * [x] link navbar items #11
 * [ ] inverse header and home when @media xs #12
 * [ ] make the current navbar item "active" #13
+* [ ] link the arrow on about page #14
+* [ ] design and content About page #15
+* [ ] work page content and design #16
