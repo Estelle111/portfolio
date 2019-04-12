@@ -1,6 +1,6 @@
 # Portfolio
-**After 2 months and 1 day**
-Work in progress
+* **After 2 months and 1 day**
+* Work in progress
 
 ## Challenges
 * [ ] use GitHub Issues and Projects tools
