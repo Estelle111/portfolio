@@ -1,5 +1,5 @@
 # Portfolio
-* **After 2 months and 1 day**
+* **After 2 months and 1 day of training**
 * Work in progress
 
 ## Challenges
