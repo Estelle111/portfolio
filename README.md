@@ -1,5 +1,5 @@
 # Portfolio
-* **After 2 months and 1 day**
+* **Began after 2 months and 1 day**
 * Work in progress
 
 ## Challenges
