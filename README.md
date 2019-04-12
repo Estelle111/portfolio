@@ -1,5 +1,5 @@
 # Portfolio
-* **Began after 2 months and 1 day**
+* **After 2 months and 1 day**
 * Work in progress
 
 ## Challenges
@@ -23,3 +23,9 @@
 * [ ] link the arrow on about page #14
 * [ ] design and content About page #15
 * [ ] work page content and design #16
+
+## During
+BeCode training, 2019
+
+## Author
+Estelle Mol
